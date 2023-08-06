@@ -1,0 +1,1 @@
+sudo docker run --gpus all -it --rm --ipc=host -v /home/shin/exps/DB:/data -v /home/shin/exps/code/ASVspoof2023/env202305:/environment -v /home/shin/exps/code/ASVspoof2023/env202305/results:/results -v /home/shin/exps/code/ASVspoof2023/exp_lib_dev_HS:/exp_lib -v /home/shin/exps/code/ASVspoof2023:/code env202305:latest
